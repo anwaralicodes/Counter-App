@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 20vh;
-  font-size: 40px;
+  font-size: 2em;
 }
 
 #counter {
@@ -24,4 +24,18 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 10em;
+}
+
+.buttons {
+  padding: 10px 20px;
+  font-size: 1.5em;
+  color: white;
+  background-color: darkslategray;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buttons:hover {
+  background-color: darkcyan;
 }
